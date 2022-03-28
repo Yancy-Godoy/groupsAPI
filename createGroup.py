@@ -7,7 +7,7 @@ SERVICE_ACCOUNT_FILE = 'groups.json'
 def create_service():
   credentials = service_account.Credentials.from_service_account_file(
     SERVICE_ACCOUNT_FILE, scopes=SCOPES)
-  delegated_credentials = credentials.with_subject('yancymelany@support-domain29.xyz')
+  delegated_credentials = credentials.with_subject('y@domaim.com')
 
   service_name = 'cloudidentity'
   api_version = 'v1'
