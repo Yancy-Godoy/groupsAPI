@@ -2,7 +2,7 @@ from pprint import pprint
 from google.oauth2 import service_account
 import googleapiclient.discovery
 
-# Scopes required by this endpoint ->  https://developers.google.com/admin-sdk/directory/reference/rest/v1/groups/insert
+# Scopes required by this endpoint ->  https://developers.google.com/admin-sdk/directory/reference/rest/v1/groups/get
 SCOPES = [
     'https://apps-apis.google.com/a/feeds/groups/',
     'https://www.googleapis.com/auth/admin.directory.group',
